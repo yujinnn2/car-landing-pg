@@ -1,0 +1,141 @@
+@import url("reset.css");
+@import url("normalize.css");
+@import url("common.css");
+
+.d-flex{
+    display: flex;
+}
+
+.main-top{
+    position: relative;
+    height: 854px;
+    background: linear-gradient(180deg, rgba(31,137,255,1) 0%, rgba(41,178,255,1) 100%);
+}
+
+
+.co{
+    font-size: 130px;
+    font-weight: 900;
+    background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(234,237,255,1) 100%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+    transform: skew(-10deg,0deg);
+    display: inline-block;
+}
+
+.co::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: #2191FF;
+    position: absolute;
+    top: -30px;
+    left: 40%;
+    border-radius: 100px;
+}
+.co::before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: #249DFF;
+    position: absolute;
+    bottom: -30px;
+    left:40%;
+    border-radius: 100px;
+}
+.add{
+    font-size: 100px;
+    color: #fff;
+    transform: skew(-10deg,0deg);
+    position: relative;
+    margin-top:25px;
+    justify-content: center;
+}
+.add::after{
+    content: "";
+    width: 60px;
+    height: 11px;
+    background: #fff;
+    position:absolute;
+    bottom: 5px;
+    right: 53px;
+}
+
+.square{
+    margin-top: 10px;
+}
+
+.pre{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 31px;
+}
+
+.content-row{
+    width: 40%;
+    text-align: center;
+}
+.car{
+    position: absolute;
+    width: 868px;
+    top: 49%;
+    right: 19%;
+}
+
+
+
+/* media(미디어쿼리 / 반응형구간) */
+@media(max-width:1280px){
+ .pre{
+    font-size: 45px;
+ }   
+ .co{
+    font-size: 95px;
+ }
+ .add{
+    font-size: 75px;
+ }
+ .add::after{
+    content: "";
+    width: 60px;
+    height: 9px;
+    background: #fff;
+    position:absolute;
+    bottom: 4px;
+    right: 110px;
+}
+.car{
+    position: absolute;
+    width: 828px;
+    top: 43%;
+    right: 14%;
+}
+}
+
+@media(max-width:1024px){
+    .pre{
+       font-size: 45px;
+    }   
+    .co{
+       font-size: 95px;
+    }
+    .add{
+       font-size: 75px;
+    }
+    .add::after{
+       content: "";
+       width: 60px;
+       height: 9px;
+       background: #fff;
+       position:absolute;
+       bottom: 4px;
+       right: 110px;
+   }
+   .car{
+       position: absolute;
+       width: 828px;
+       top: 43%;
+       right: 14%;
+   }
+   }
