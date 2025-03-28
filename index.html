@@ -4,25 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자동차 랜딩페이지</title>
+     <!--animate-->
+     <link rel="stylesheet" href="assets/css/animate.css">
+     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
     <section class="main-top">
         <div class="container d-flex w-1368">
-            <div class="content-row mt-104">
-                <h3 class="pre">선납금 0원 기준</h3>
-                <div class="content-img ">
+            <div class="content-row w-50 mt-104">
+                <h3 class="pre wow fadeInDown">선납금 0원 기준</h3>
+                <div class="content-img wow fadeInDown">
                     <span class="co">100만원</span>
-                    <h3 class="add d-flex">추가 할인
+                    <h3 class="add d-flex wow fadeInDown">추가 할인
                         <img src="assets/images/square.svg" alt="" class="square ">
                     </h3>
                 </div>
             </div>
-            <div class="content-img">
+            <div class="content-img w-50">
                 <img src="assets/images/car.svg" alt=""
                 class="car">
             </div>
         </div>
 
     </section>
+
+    <section class="section02">
+        <div class="section02__title">
+            <h2>
+                왜 신차 장기렌트를 해야 할까요?
+            </h2>
+        </div>
+        <div class="container">
+            <div class="d-flex">
+                <div class="w-25 content-bg d-flex">
+                    <div class="section02__icon">
+                        <img src="assets/images/money-icon.svg" alt="돈 아이콘">
+                    </div>
+                    <div class="section02__text ">
+                        <h3>선납금 0원 기준 견적</h3>
+                    <p>타사 대비 최대 200만원 저렴</p>
+                    </div>
+                </div>
+                <div class="w-25 content-bg d-flex">
+                    <div class="section02__icon">
+                        <img src="assets/images/user-icon.svg" alt="사람 아이콘">
+                    </div>
+                    <div class="section02__text">
+                        <h3>고객 맞춤형 솔루션</h3>
+                    <p>현재 상황에 딱 맞는 컨설팅으로<br>부담 제로!</p>
+                    </div>
+                </div>
+                <div class="w-25 content-bg d-flex">
+                    <div class="section02__icon">
+                        <img src="assets/images/sc-icon.svg" alt="수리 아이콘">
+                    </div>
+                    <div class="section02__text">
+                        <h3>공식 서비스 센터 OPEN</h3>
+                    <p>공임비, 소모품 교체, 점검까지<br>완벽한 사후관리!</p>
+                    </div>
+                </div>
+                <div class="w-25 content-bg d-flex">
+                    <div class="section02__icon">
+                        <img src="assets/images/thumb-icon.svg" alt="엄지 아이콘">
+                    </div>
+                    <div class="section02__text">
+                        <h3>한국 중고차 브랜드 선호도 1위</h3>
+                    <p>유튜브 구독자 20만명이<br> 추천하는 중고차!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--script-->
+     <script src="assets/js/wow.min.js"></script>
+     <script>
+         new WOW().init();
+     </script>
 </body>
 </html>

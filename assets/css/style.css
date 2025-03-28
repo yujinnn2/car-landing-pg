@@ -8,17 +8,17 @@
 
 .main-top{
     position: relative;
-    height: 854px;
+    height: 53.38rem;
     background: linear-gradient(180deg, rgba(31,137,255,1) 0%, rgba(41,178,255,1) 100%);
 }
 
 
 .co{
-    font-size: 130px;
+    font-size: 8.13rem;
     font-weight: 900;
     background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(234,237,255,1) 100%);
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 0.63rem 1.25rem;
+    border-radius: 1.25rem;
     position: relative;
     transform: skew(-10deg,0deg);
     display: inline-block;
@@ -26,116 +26,212 @@
 
 .co::after{
     content: "";
-    width: 50px;
-    height: 50px;
+    width: 3.13rem;
+    height: 3.13rem;
     background: #2191FF;
     position: absolute;
-    top: -30px;
+    top: -1.88rem;
     left: 40%;
-    border-radius: 100px;
+    border-radius: 6.25rem;
 }
 .co::before{
     content: "";
-    width: 50px;
-    height: 50px;
+    width: 3.13rem;
+    height: 3.13rem;
     background: #249DFF;
     position: absolute;
-    bottom: -30px;
+    bottom: -1.88rem;
     left:40%;
-    border-radius: 100px;
+    border-radius: 6.25rem;
 }
 .add{
-    font-size: 100px;
+    font-size: 6.25rem;
     color: #fff;
     transform: skew(-10deg,0deg);
     position: relative;
-    margin-top:25px;
+    margin-top:1.56rem;
     justify-content: center;
 }
 .add::after{
     content: "";
-    width: 60px;
-    height: 11px;
+    width: 3.75rem;
+    height: 0.69rem;
     background: #fff;
     position:absolute;
-    bottom: 5px;
-    right: 53px;
+    bottom: 0.29rem;
+    right: 8.31rem;
 }
 
 .square{
-    margin-top: 10px;
+    margin-top: 0.63rem;
 }
 
 .pre{
-    font-size: 50px;
+    font-size: 3.13rem;
     color: #fff;
-    margin-bottom: 31px;
+    margin-bottom: 1.94rem;
 }
 
 .content-row{
-    width: 40%;
     text-align: center;
 }
 .car{
     position: absolute;
-    width: 868px;
+    width: 54.25rem;
     top: 49%;
     right: 19%;
 }
-
-
+/*섹션2 Section02*/
+.section02{
+    background: #E9F3FF;
+    padding: 100px 255PX; 
+}
+.section02__title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.section02__title h2{
+    font-size: 30px;
+    color: #3F3E3E;
+}
+.section02__text h3{
+    font-size: 15px;
+    font-weight: 800;
+}
+.content-bg{
+    background:#fff;
+    padding: 81px 31px 61px 27px;
+}
+.section02__icon{
+    margin-right: 20px;
+}
+.w-25{
+    width: 330px;
+    margin-right: 30px;
+    border: 1px solid #D6CACA;
+    border-radius: 30px;
+    text-align: center;
+}
+.section02__text p{
+    font-size: 14px;
+}
 
 /* media(미디어쿼리 / 반응형구간) */
+
 @media(max-width:1280px){
- .pre{
-    font-size: 45px;
- }   
- .co{
-    font-size: 95px;
- }
- .add{
-    font-size: 75px;
- }
- .add::after{
-    content: "";
-    width: 60px;
-    height: 9px;
-    background: #fff;
-    position:absolute;
-    bottom: 4px;
-    right: 110px;
-}
-.car{
-    position: absolute;
-    width: 828px;
-    top: 43%;
-    right: 14%;
-}
+    .car{
+        position: absolute;
+        width: 45.25rem;
+        top: 55%;
+        right: 11%;
+    }
+    pre{
+        font-size: 2.8rem;
+    }
+    .co{
+        font-size: 6.13rem;
+    }
+    .add{
+        font-size: 5.25rem;
+    }
+    .add::after{
+        width: 3.75rem;
+        height: 0.55rem;
+        bottom: 0.30rem;
+        right: 9.5rem;
+    }
 }
 
 @media(max-width:1024px){
     .pre{
-       font-size: 45px;
+       font-size: 2.81rem;
     }   
     .co{
-       font-size: 95px;
+       font-size: 5.94rem;
     }
     .add{
-       font-size: 75px;
+       font-size: 4.69rem;
     }
     .add::after{
        content: "";
-       width: 60px;
-       height: 9px;
+       width: 3.75rem;
+       height: 0.56rem;
        background: #fff;
        position:absolute;
-       bottom: 4px;
-       right: 110px;
+       bottom: 0.25rem;
+       right: 6.88rem;
    }
-   .car{
-       position: absolute;
-       width: 828px;
-       top: 43%;
-       right: 14%;
-   }
-   }
+  
+}
+
+@media(max-width:768px){
+    .main-top .d-flex{
+        flex-direction: column;
+    }
+    .square{
+        display: none;
+    }
+    .add::after{
+        display: none;
+    }
+    .car{
+        position: relative;
+        width: 40.25rem;
+        top: 60%;
+        right: -4%;
+    }
+    .add{
+        font-size: 4.25rem;
+    }
+}
+
+@media(max-width:540px){
+    .main-top .d-flex{
+        flex-direction: column;
+    }
+    .square{
+        display: none;
+    }
+    .add::after{
+        display: none;
+    }
+    .car{
+        position: relative;
+        width: 40.25rem;
+        top: 60%;
+        right: 5%;
+    }
+    .add{
+        font-size: 4.25rem;
+    }
+}
+
+@media(max-width:348px){
+    .main-top .d-flex{
+        flex-direction: column;
+    }
+    .square{
+        display: none;
+    }
+    .add::after{
+        display: none;
+    }
+    .car{
+        position: relative;
+        width: 40.25rem;
+        top: 60%;
+        right: 10%;
+    }
+    .add{
+        font-size: 3.0rem;
+    }
+    .co{
+        font-size: 3.94rem;
+    }
+}
+
+
+
+
+
+
