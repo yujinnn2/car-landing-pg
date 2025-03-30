@@ -1,237 +1,286 @@
-@import url("reset.css");
-@import url("normalize.css");
-@import url("common.css");
+@import url('reset.css');
+@import url('normalize.css');
+@import url('common.css');
 
-.d-flex{
-    display: flex;
-}
-
-.main-top{
-    position: relative;
-    height: 53.38rem;
-    background: linear-gradient(180deg, rgba(31,137,255,1) 0%, rgba(41,178,255,1) 100%);
+.d-flex {
+  display: flex;
 }
 
-
-.co{
-    font-size: 8.13rem;
-    font-weight: 900;
-    background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(234,237,255,1) 100%);
-    padding: 0.63rem 1.25rem;
-    border-radius: 1.25rem;
-    position: relative;
-    transform: skew(-10deg,0deg);
-    display: inline-block;
+.main-top {
+  position: relative;
+  height: 53.38rem;
+  background: linear-gradient(
+    180deg,
+    rgba(31, 137, 255, 1) 0%,
+    rgba(41, 178, 255, 1) 100%
+  );
 }
 
-.co::after{
-    content: "";
-    width: 3.13rem;
-    height: 3.13rem;
-    background: #2191FF;
-    position: absolute;
-    top: -1.88rem;
-    left: 40%;
-    border-radius: 6.25rem;
-}
-.co::before{
-    content: "";
-    width: 3.13rem;
-    height: 3.13rem;
-    background: #249DFF;
-    position: absolute;
-    bottom: -1.88rem;
-    left:40%;
-    border-radius: 6.25rem;
-}
-.add{
-    font-size: 6.25rem;
-    color: #fff;
-    transform: skew(-10deg,0deg);
-    position: relative;
-    margin-top:1.56rem;
-    justify-content: center;
-}
-.add::after{
-    content: "";
-    width: 3.75rem;
-    height: 0.69rem;
-    background: #fff;
-    position:absolute;
-    bottom: 0.29rem;
-    right: 8.31rem;
+.co {
+  font-size: 8.13rem;
+  font-weight: 900;
+  background: linear-gradient(
+    90deg,
+    rgba(254, 254, 254, 1) 0%,
+    rgba(234, 237, 255, 1) 100%
+  );
+  padding: 0.63rem 1.25rem;
+  border-radius: 1.25rem;
+  position: relative;
+  transform: skew(-10deg, 0deg);
+  display: inline-block;
 }
 
-.square{
-    margin-top: 0.63rem;
+.co::after {
+  content: '';
+  width: 3.13rem;
+  height: 3.13rem;
+  background: #2191ff;
+  position: absolute;
+  top: -1.88rem;
+  left: 40%;
+  border-radius: 6.25rem;
+}
+.co::before {
+  content: '';
+  width: 3.13rem;
+  height: 3.13rem;
+  background: #249dff;
+  position: absolute;
+  bottom: -1.88rem;
+  left: 40%;
+  border-radius: 6.25rem;
+}
+.add {
+  font-size: 6.25rem;
+  color: #fff;
+  transform: skew(-10deg, 0deg);
+  position: relative;
+  margin-top: 1.56rem;
+  justify-content: center;
+}
+.add::after {
+  content: '';
+  width: 3.75rem;
+  height: 0.69rem;
+  background: #fff;
+  position: absolute;
+  bottom: 0.29rem;
+  right: 8.31rem;
 }
 
-.pre{
-    font-size: 3.13rem;
-    color: #fff;
-    margin-bottom: 1.94rem;
+.square {
+  margin-top: 0.63rem;
 }
 
-.content-row{
-    text-align: center;
+.pre {
+  font-size: 3.13rem;
+  color: #fff;
+  margin-bottom: 1.94rem;
 }
-.car{
-    position: absolute;
-    width: 54.25rem;
-    top: 49%;
-    right: 19%;
+
+.content-row {
+  text-align: center;
+}
+.car {
+  position: absolute;
+  width: 54.25rem;
+  top: 49%;
+  right: 19%;
 }
 /*섹션2 Section02*/
-.section02{
-    background: #E9F3FF;
-    padding: 100px 255PX; 
+.section02 {
+  background: #e9f3ff;
+  padding: 100px 255px;
 }
-.section02__title{
-    text-align: center;
-    margin-bottom: 100px;
+.section02__title {
+  text-align: center;
+  margin-bottom: 100px;
 }
-.section02__title h2{
-    font-size: 30px;
-    color: #3F3E3E;
+.section02__title h2 {
+  font-size: 30px;
+  color: #3f3e3e;
 }
-.section02__text h3{
-    font-size: 15px;
-    font-weight: 800;
+.section02__text h3 {
+  font-size: 15px;
+  font-weight: 800;
 }
-.content-bg{
-    background:#fff;
-    padding: 81px 31px 61px 27px;
+.content-bg {
+  background: #fff;
+  padding: 81px 31px 61px 27px;
 }
-.section02__icon{
-    margin-right: 20px;
+.section02__icon {
+  margin-right: 20px;
 }
-.w-25{
-    width: 330px;
-    margin-right: 30px;
-    border: 1px solid #D6CACA;
-    border-radius: 30px;
-    text-align: center;
+.w-25 {
+  width: 330px;
+  border: 1px solid #d6caca;
+  border-radius: 30px;
+  text-align: center;
 }
-.section02__text p{
-    font-size: 14px;
+.w-25:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section02__text p {
+  font-size: 14px;
 }
 
 /* media(미디어쿼리 / 반응형구간) */
 
-@media(max-width:1280px){
-    .car{
-        position: absolute;
-        width: 45.25rem;
-        top: 55%;
-        right: 11%;
-    }
-    pre{
-        font-size: 2.8rem;
-    }
-    .co{
-        font-size: 6.13rem;
-    }
-    .add{
-        font-size: 5.25rem;
-    }
-    .add::after{
-        width: 3.75rem;
-        height: 0.55rem;
-        bottom: 0.30rem;
-        right: 9.5rem;
-    }
+@media (max-width: 1280px) {
+  .car {
+    position: absolute;
+    width: 45.25rem;
+    top: 55%;
+    right: 11%;
+  }
+  pre {
+    font-size: 2.8rem;
+  }
+  .co {
+    font-size: 6.13rem;
+  }
+  .add {
+    font-size: 5.25rem;
+  }
+  .add::after {
+    width: 3.75rem;
+    height: 0.55rem;
+    bottom: 0.3rem;
+    right: 9.5rem;
+  }
+  .section02 {
+    background: #e9f3ff;
+    padding: 6.25rem 1.25rem;
+  }
+  .section02__text h3 {
+    font-size: 0.75rem;
+    font-weight: 800;
+  }
+  .section02__text p {
+    font-size: 0.69rem;
+  }
 }
 
-@media(max-width:1024px){
-    .pre{
-       font-size: 2.81rem;
-    }   
-    .co{
-       font-size: 5.94rem;
-    }
-    .add{
-       font-size: 4.69rem;
-    }
-    .add::after{
-       content: "";
-       width: 3.75rem;
-       height: 0.56rem;
-       background: #fff;
-       position:absolute;
-       bottom: 0.25rem;
-       right: 6.88rem;
-   }
-  
+@media (max-width: 1024px) {
+  .pre {
+    font-size: 2.8rem;
+  }
+  .co {
+    font-size: 6.13rem;
+  }
+  .add {
+    font-size: 5.25rem;
+  }
+  .add::after {
+    content: '';
+    width: 3.75rem;
+    height: 0.56rem;
+    background: #fff;
+    position: absolute;
+    bottom: 0.25rem;
+    right: 6.88rem;
+  }
+  .section02 {
+    background: #e9f3ff;
+    padding: 6.25rem 1.25rem;
+  }
+  .section02__text h3 {
+    margin-top: 20px;
+    font-size: 0.65rem;
+    font-weight: 800;
+  }
+  .section02__text p {
+    font-size: 0.55rem;
+  }
+  .img {
+    max-width: 80%;
+  }
+  .section02__icon {
+    margin: auto;
+
+    /* 
+    가운데 정렬 하는 방법
+    1. justify-content : center
+    2. text-align : center
+    3. margin : auto 
+    */
+  }
+  .content-bg {
+    background: #fff;
+    padding: 61px 21px 61px 21px;
+  }
+  .w-25 {
+    flex-direction: column;
+  }
 }
 
-@media(max-width:768px){
-    .main-top .d-flex{
-        flex-direction: column;
-    }
-    .square{
-        display: none;
-    }
-    .add::after{
-        display: none;
-    }
-    .car{
-        position: relative;
-        width: 40.25rem;
-        top: 60%;
-        right: -4%;
-    }
-    .add{
-        font-size: 4.25rem;
-    }
+@media (max-width: 768px) {
+  .main-top .d-flex {
+    flex-direction: column;
+  }
+  .square {
+    display: none;
+  }
+  .add::after {
+    display: none;
+  }
+  .car {
+    position: relative;
+    width: 40.25rem;
+    top: 60%;
+    right: -4%;
+  }
+  .add {
+    font-size: 4.25rem;
+  }
+  .section02__icon {
+    width: 30px;
+  }
 }
 
-@media(max-width:540px){
-    .main-top .d-flex{
-        flex-direction: column;
-    }
-    .square{
-        display: none;
-    }
-    .add::after{
-        display: none;
-    }
-    .car{
-        position: relative;
-        width: 40.25rem;
-        top: 60%;
-        right: 5%;
-    }
-    .add{
-        font-size: 4.25rem;
-    }
+@media (max-width: 540px) {
+  .main-top .d-flex {
+    flex-direction: column;
+  }
+  .square {
+    display: none;
+  }
+  .add::after {
+    display: none;
+  }
+  .car {
+    position: relative;
+    width: 40.25rem;
+    top: 60%;
+    right: 5%;
+  }
+  .add {
+    font-size: 4.25rem;
+  }
 }
 
-@media(max-width:348px){
-    .main-top .d-flex{
-        flex-direction: column;
-    }
-    .square{
-        display: none;
-    }
-    .add::after{
-        display: none;
-    }
-    .car{
-        position: relative;
-        width: 40.25rem;
-        top: 60%;
-        right: 10%;
-    }
-    .add{
-        font-size: 3.0rem;
-    }
-    .co{
-        font-size: 3.94rem;
-    }
+@media (max-width: 348px) {
+  .main-top .d-flex {
+    flex-direction: column;
+  }
+  .square {
+    display: none;
+  }
+  .add::after {
+    display: none;
+  }
+  .car {
+    position: relative;
+    width: 40.25rem;
+    top: 60%;
+    right: 10%;
+  }
+  .add {
+    font-size: 3rem;
+  }
+  .co {
+    font-size: 3.94rem;
+  }
 }
-
-
-
-
-
-
